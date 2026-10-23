@@ -1,0 +1,16 @@
+# Aliases carried over from the root OWNERS_ALIASES of kubevirt/kubevirt
+# when this repository was split out of hack/builder. Only the aliases
+# referenced by OWNERS are included; keep them in sync with kubevirt.
+aliases:
+  #
+  # SIG Buildsystem
+  # Owns bazel, and ensures that kubevirt can be build.
+  #
+  sig-buildsystem-approvers:
+    - brianmcarey
+    - dhiller
+  sig-buildsystem-reviewers:
+    - brianmcarey
+    - dollierp
+    - enp0s3
+    - xpivarc
